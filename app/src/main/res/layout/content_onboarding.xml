@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    >
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Isi Judul"
+            android:textAppearance="@style/selamat_dat"
+            android:layout_marginBottom="20dp"
+            />
+
+        <TextView
+            android:id="@+id/deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="4sp"
+            android:text="Isi Deskripsi"
+            android:textAppearance="@style/kami_senang" />
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:src="@drawable/slide1" />
+
+
+
+</LinearLayout>

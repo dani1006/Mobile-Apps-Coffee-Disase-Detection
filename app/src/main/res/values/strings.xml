@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">DetektifKopi</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_artikel">Artikel</string>
+    <string name="nav_tersimpan">Tersimpan</string>
+    <string name="nav_akun">Akun</string>
+
+    <string name="selamat_dat">
+selamat datang \ndi aplikasi \nDetektif Kopi
+</string>
+    <string name="kami_senang">
+Kami senang Anda bergabung untuk meningkatkan kualitas kopi Indonesia
+</string>
+
+    <string name="slide2">Deteksi Penyakit Kopi dengan mudah dan cepat</string>
+    <string name="subTitleSlide2">Ketahui kualitas kesehatan tanaman kopi anda untuk melakukan tindakan preventif</string>
+    <string name="title_slide3">Membantu miningkatkan hasil panen</string>
+    <string name="sub_title_Slide3">Dengan pendeteksian awal kesehatan kopi dapat membantu meningkatkan kualitas hasil panen kopi</string>
+    <string name="ini_banner">Ini Banner</string>
+
+    <string name="text_btn_scan">Deteksi Jenis Sampah</string>
+    <string name="description_banner">banner</string>
+    <string name="sub_poin">Poin yang diperoleh</string>
+    <string name="jml_poin">500 poin</string>
+    <string name="content_edit">Cara Penggunaan Aplikasi Buwang.in</string>
+
+</resources>
