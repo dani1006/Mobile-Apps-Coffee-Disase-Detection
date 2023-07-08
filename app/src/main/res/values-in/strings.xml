@@ -1,44 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DetectCof</string>
-    <string name="nav_home">Home</string>
-    <string name="nav_artikel">Article</string>
-    <string name="nav_tersimpan">Saved</string>
+    <string name="nav_home">Beranda</string>
+    <string name="nav_artikel">Artikel</string>
+    <string name="nav_tersimpan">Tersimpan</string>
 
     <string name="selamat_dat">
-Welcome to \nDetectCof App
+Selamat Datang \ndi aplikasi \nDetectCof
 </string>
     <string name="kami_senang">
-We are happy to have you on board to improve the quality of Indonesian coffee
+Kami senang anda bergabung untuk meningkatkan kualitas Kopi Indonesia
 </string>
 
-    <string name="slide2">Coffee Disease Detection easily and quickly</string>
-    <string name="subTitleSlide2">Know the health quality of your coffee plants to take preventive measures</string>
-    <string name="title_slide3">Helps increase crop yields</string>
-    <string name="sub_title_Slide3">Early detection of coffee health can help improve the quality of coffee yields</string>
+    <string name="slide2">Deteksi Penyakit Kopi dengan mudah dan cepat</string>
+    <string name="subTitleSlide2">Ketahui kualitas kesehatan tanaman kopi anda untuk melakukan tindakan preventif</string>
+    <string name="title_slide3">Membantu miningkatkan hasil panen</string>
+    <string name="sub_title_Slide3">Dengan pendeteksian awal kesehatan kopi dapat membantu meningkatkan kualitas hasil panen kopi</string>
     <string name="ini_banner">Ini Banner</string>
 
-    <string name="text_btn_scan">Scan coffee leaf</string>
-    <string name="content_edit">How to use</string>
+    <string name="text_btn_scan">Deteksi Daun Kopi</string>
+    <string name="content_edit">Cara Penggunaan</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="judul_artikel">Nama Pahlawan</string>
     <string name="sub_title">Deskripsi</string>
-    <string name="guide">Guide</string>
-    <string name="skip">Skip</string>
-    <string name="next">Next</string>
-    <string name="mulai">Start</string>
-    <string name="artikel_terkait">Related Article</string>
-    <string name="view_all">View All</string>
-    <string name="aplikasi_deteksi_kopi">DetectCof App</string>
-    <string name="text_hasil">Successful Disease Identification</string>
+    <string name="guide">Panduan pengguna</string>
+    <string name="skip">Lewati</string>
+    <string name="next">Lanjut</string>
+    <string name="mulai">Mulai</string>
+    <string name="artikel_terkait">Artikel Terkait</string>
+    <string name="view_all">Lihat Semua</string>
+    <string name="aplikasi_deteksi_kopi">Aplikasi DetectCof</string>
+    <string name="text_hasil">Identifikasi Penyakit Berhasil</string>
     <string name="hasil_penyakit">KARAT DAUN</string>
     <string name="text_penyebab">Jamur Hemilela Vaststrix</string>
-    <string name="title_deskripsi">Description</string>
+    <string name="title_deskripsi">Deskripsi</string>
     <string name="text_deskripsi">Penyakit karat daun terutama menyerang kopi arabika yang ditanam di dataran rendah. Awalnya terlihat bercak-bercak kuning muda pada daun. Kemudian, bercak berubah kuning tua tertutup oleh tepung spora, terutama.....Selengkapnya</string>
-    <string name="obat">Obat</string>
-    <string name="title_pencegahan">Pencegahan</string>
-    <string name="simpan">Simpan</string>
 
 
     <string-array name="data_judul">

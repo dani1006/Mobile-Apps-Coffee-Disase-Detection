@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--    &lt;!&ndash; Background color &ndash;&gt;-->
+<!--    <item android:drawable="@android:color/white" />-->
+
+<!--    &lt;!&ndash; Image background &ndash;&gt;-->
+<!--    <item android:drawable="@drawable/artikel4" />-->
+
+<!--    &lt;!&ndash; Rounded bottom shape &ndash;&gt;-->
+<!--    <item>-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <corners android:topLeftRadius="0dp"-->
+<!--                android:topRightRadius="0dp"-->
+<!--                android:bottomLeftRadius="50dp"-->
+<!--                android:bottomRightRadius="50dp" />-->
+<!--        </shape>-->
+<!--    </item>-->
+<!--</layer-list>-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:bottom="-25dp"
+        android:left="-25dp"
+        android:right="-25dp"
+        android:top="-25dp">
+
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="25dp"
+                android:color="#ffffff" />
+
+            <corners android:topRightRadius="0dp"
+                android:topLeftRadius="0dp"
+                android:bottomLeftRadius="40dp"
+                android:bottomRightRadius="40dp"/>
+        </shape>
+    </item>
+</layer-list>

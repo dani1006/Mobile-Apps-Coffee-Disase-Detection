@@ -10,12 +10,18 @@ android {
 
     defaultConfig {
         applicationId "com.example.detektifkopi"
-        minSdk 21
+        minSdk 22
         targetSdk 33
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    sourceSets {
+        main {
+            assets.srcDirs += files('src/main/font')
+        }
     }
 
     buildTypes {
@@ -33,6 +39,14 @@ android {
     }
     buildFeatures {
         viewBinding true
+        mlModelBinding true
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE.md'
+        exclude 'META-INF/NOTICE.md'
+    }
+    aaptOptions {
+        noCompress "tflite"  // Your model's file extension: "tflite", "lite", etc.
     }
 }
 
@@ -42,9 +56,13 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.databinding:databinding-compiler-common:7.1.2'
+    implementation 'org.tensorflow:tensorflow-lite-support:0.1.0'
+    implementation 'org.tensorflow:tensorflow-lite-metadata:0.1.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
 
     //retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
@@ -68,4 +86,10 @@ dependencies {
 
     //lottie
     implementation 'com.airbnb.android:lottie:5.2.0'
+
+    //tflite
+    implementation 'org.tensorflow:tensorflow-lite:2.7.0'
+    implementation 'org.tensorflow:tensorflow-lite-gpu:2.3.0'
+
+
 }

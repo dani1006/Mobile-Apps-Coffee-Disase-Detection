@@ -13,8 +13,5 @@
         android:id="@+id/navigation_simpan"
         android:icon="@drawable/simpan_icon"
         android:title="@string/nav_tersimpan" />
-    <item
-        android:id="@+id/navigation_akun"
-        android:icon="@drawable/person_icon"
-        android:title="@string/nav_akun" />
+
 </menu>

@@ -42,6 +42,7 @@ class OnBoarding : AppCompatActivity() {
         judul3 = getString(R.string.title_slide3)
         subJudul3 = getString(R.string.sub_title_Slide3)
 
+        checkFirstRun()
 
         onBoardingAdapter = OnBoardingAdapter(
             listOf(
@@ -89,9 +90,9 @@ class OnBoarding : AppCompatActivity() {
                 setCurrentIndicator(position)
 
                 if (position == onBoardingAdapter.itemCount - 1) {
-                    next?.text = "Mulai"
+                    next?.text =  getString(R.string.mulai)
                 } else {
-                    next?.text = "Next"
+                    next?.text =  getString(R.string.next)
                 }
             }
         })
@@ -150,4 +151,21 @@ class OnBoarding : AppCompatActivity() {
         sharedPreferences = applicationContext.getSharedPreferences("pref", Context.MODE_PRIVATE)
         return sharedPreferences!!.getBoolean("pertama", false)
     }
+
+    private fun checkFirstRun() {
+        val sharedPreferences = applicationContext.getSharedPreferences("pref", Context.MODE_PRIVATE)
+        val isFirstRun = sharedPreferences.getBoolean("first_run", true)
+        if (isFirstRun) {
+            // Pertama kali dijalankan, jalankan onboarding
+            val editor = sharedPreferences.edit()
+            editor.putBoolean("first_run", false)
+            editor.apply()
+        } else {
+            // Bukan pertama kali dijalankan, langsung ke MainActivity
+            val intent = Intent(applicationContext, MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+    }
+
 }

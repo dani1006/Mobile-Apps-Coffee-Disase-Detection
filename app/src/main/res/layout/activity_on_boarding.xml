@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
+    android:background="@color/white"
     tools:context=".OnBoarding">
 
 
@@ -13,7 +14,7 @@
         style="@style/sub_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Skip"
+        android:text="@string/skip"
         android:layout_marginBottom="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -23,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
-        android:text="Next"
+        android:text="@string/next"
         style="@style/sub_title"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -34,6 +35,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="horizontal"
+        android:background="@color/white"
         app:layout_constraintBottom_toTopOf="@id/btn_next"
         />
 
@@ -49,10 +51,10 @@
 
 
     <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tab"
         android:layout_width="100dp"
         android:orientation="horizontal"
         android:layout_height="15dp"
+        android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
